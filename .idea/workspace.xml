@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="meeting:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="daf23cb7-5b11-4de0-8cce-d0fd8e0ba1cf" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+      <find>form-group</find>
+      <find>Parame</find>
+      <find>ssm</find>
+      <find>clubdemo</find>
+      <find>myModal2</find>
+      <find>myModalLabel</find>
+      <find>btn-primary</find>
+      <find>form1</find>
+      <find>\</find>
+      <find>location.reload();</find>
+      <find>json</find>
+      <find>searchinfo</find>
+      <find>re</find>
+      <find>bo1</find>
+      <find>foo</find>
+      <find>form-control</find>
+      <find>url</find>
+      <find>../../../</find>
+      <find>href</find>
+      <find>index</find>
+      <find>Ass</find>
+      <find>Asse</find>
+      <find>查询</find>
+      <find>refresh</find>
+      <find>findAll</find>
+      <find>D</find>
+      <find>Assects</find>
+      <find>inser</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace />
+      <replace>meeting</replace>
+      <replace>btn-default</replace>
+      <replace>$('#grid').bootstrapTable('refresh')</replace>
+      <replace>div1</replace>
+      <replace>../</replace>
+    </replaceStrings>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mavenrepository\maven_repository" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ctNJby7hOaPd0YnO0CNs1U7sMr" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/javafile/nodejs/node" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\meeting\src\main\webapp\js\search" />
+      <recent name="D:\meeting\src\main\webapp\WEB-INF\pages" />
+      <recent name="D:\meeting\src\main\webapp\js" />
+      <recent name="D:\meeting\src\main\webapp" />
+      <recent name="D:\meeting\src\main\webapp\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+      <recent name="com.pojo" />
+      <recent name="com.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\meeting\src\main\webapp\WEB-INF\pages" />
+      <recent name="D:\meeting\src\main\webapp\js" />
+      <recent name="D:\newworkspace\meeting\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/index.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/meeting/meeting/index" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="meeting:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/meeting" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_meeting_2" />
+        <option name="HTTP_PORT" value="8085" />
+        <option name="JNDI_PORT" value="1088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4017" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="meeting:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daf23cb7-5b11-4de0-8cce-d0fd8e0ba1cf" name="Default" comment="" />
+      <created>1568182151612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568182151612</updated>
+      <workItem from="1568182153024" duration="6355000" />
+      <workItem from="1568188563817" duration="1488000" />
+      <workItem from="1568190056872" duration="36594000" />
+      <workItem from="1568241695831" duration="2623000" />
+      <workItem from="1568244368163" duration="2432000" />
+      <workItem from="1568266069361" duration="5235000" />
+      <workItem from="1568271338914" duration="1096000" />
+      <workItem from="1568272706571" duration="27000" />
+      <workItem from="1568283260359" duration="1000" />
+      <workItem from="1568283269860" duration="2000" />
+      <workItem from="1568283277958" duration="1172000" />
+      <workItem from="1568418975837" duration="2912000" />
+      <workItem from="1568518667778" duration="787000" />
+      <workItem from="1573978721612" duration="771000" />
+      <workItem from="1577502639108" duration="10000" />
+      <workItem from="1577502696768" duration="2057000" />
+      <workItem from="1577505093477" duration="12421000" />
+      <workItem from="1577518417490" duration="4409000" />
+      <workItem from="1577529922630" duration="10273000" />
+      <workItem from="1577581037021" duration="18982000" />
+      <workItem from="1577602772740" duration="2232000" />
+      <workItem from="1577605109123" duration="3047000" />
+      <workItem from="1577608189469" duration="528000" />
+      <workItem from="1577608741320" duration="9066000" />
+      <workItem from="1577620374538" duration="15816000" />
+      <workItem from="1577665775676" duration="2340000" />
+      <workItem from="1577674106298" duration="15752000" />
+      <workItem from="1577695483080" duration="1680000" />
+      <workItem from="1577699113355" duration="196000" />
+      <workItem from="1577702807216" duration="494000" />
+      <workItem from="1577703522050" duration="93000" />
+      <workItem from="1577704512235" duration="2586000" />
+      <workItem from="1577710429011" duration="6842000" />
+      <workItem from="1577717651612" duration="507000" />
+      <workItem from="1577757188587" duration="2142000" />
+      <workItem from="1577775717381" duration="1232000" />
+      <workItem from="1578013227689" duration="646000" />
+      <workItem from="1578100873043" duration="6017000" />
+      <workItem from="1578145102399" duration="12000" />
+      <workItem from="1578192897539" duration="889000" />
+      <workItem from="1578293806542" duration="2000" />
+      <workItem from="1578293822862" duration="461000" />
+      <workItem from="1578294287972" duration="2348000" />
+      <workItem from="1578355519754" duration="66000" />
+      <workItem from="1578357047317" duration="2281000" />
+      <workItem from="1578361360350" duration="41000" />
+      <workItem from="1578380574186" duration="1438000" />
+      <workItem from="1578385393308" duration="4305000" />
+      <workItem from="1578394747487" duration="550000" />
+      <workItem from="1578464403981" duration="17000" />
+      <workItem from="1578472414404" duration="92000" />
+      <workItem from="1578472718992" duration="462000" />
+      <workItem from="1578473979206" duration="89000" />
+      <workItem from="1578636623045" duration="24000" />
+      <workItem from="1578662015954" duration="7000" />
+      <workItem from="1578665872348" duration="164000" />
+      <workItem from="1578715069781" duration="149000" />
+      <workItem from="1578980402394" duration="1371000" />
+      <workItem from="1579135644185" duration="1485000" />
+      <workItem from="1579653165824" duration="3629000" />
+      <workItem from="1580003072724" duration="3381000" />
+      <workItem from="1580099264731" duration="87000" />
+      <workItem from="1580101558822" duration="1258000" />
+      <workItem from="1580118214967" duration="1212000" />
+      <workItem from="1580122242573" duration="13000" />
+      <workItem from="1580359208144" duration="12000" />
+      <workItem from="1580715923822" duration="11000" />
+      <workItem from="1581212906409" duration="926000" />
+      <workItem from="1581226198790" duration="549000" />
+      <workItem from="1581313507684" duration="391000" />
+      <workItem from="1581654207075" duration="909000" />
+      <workItem from="1581658028347" duration="6000" />
+      <workItem from="1581941051808" duration="83000" />
+      <workItem from="1582281011972" duration="75000" />
+      <workItem from="1582281894644" duration="1769000" />
+      <workItem from="1582331299243" duration="30000" />
+      <workItem from="1582334375163" duration="1371000" />
+      <workItem from="1591343862454" duration="75000" />
+      <workItem from="1613737235862" duration="3557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="631" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613738736672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613738736672" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>meeting:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (meeting)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|meeting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

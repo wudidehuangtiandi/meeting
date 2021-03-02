@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+<head>
+    <!-- 指定字符集 -->
+    <meta charset="utf-8">
+    <!-- 使用Edge最新的浏览器的渲染方式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport视口：网页可以根据设置的宽度自动进行适配，在浏览器的内部虚拟一个容器，容器的宽度与设备的宽度相同。
+    width: 默认宽度与设备的宽度相同
+    initial-scale: 初始的缩放比，为1:1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>年会人员列表</title>
+
+
+
+
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+
+
+        var link1 = document.createElement('link');
+        link1.setAttribute('type', 'text/css');
+        link1.setAttribute('rel', 'stylesheet');
+        link1.setAttribute('href', projectName+'/css/bootstrap.css');
+        var link2 = document.createElement('link');
+        link2.setAttribute('type', 'text/css');
+        link2.setAttribute('rel', 'stylesheet');
+        link2.setAttribute('href', projectName+'/css/bootstrap-table.min.css');
+
+        document.head.appendChild(link1);
+        document.head.appendChild(link2);
+
+    </script>
+
+
+    <script>
+        var pathName = window.document.location.pathname;
+        var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+
+        var script1 = '<script type="text/javascript" src="'+projectName+'/js/jquery-3.3.1.min.js">'+'<'+'/script>';
+        var script2 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap.min.js">'+'<'+'/script>';
+        var script3 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap-table.js">'+'<'+'/script>';
+        var script4 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap-table-zh-CN.min.js">'+'<'+'/script>';
+        var script5 = '<script type="text/javascript" src="'+projectName+'/js/jq-message.js">'+'<'+'/script>';
+        var script6 = '<script type="text/javascript" src="'+projectName+'/js/bootbox.min.js">'+'<'+'/script>';
+        var script7 = '<script type="text/javascript" src="'+projectName+'/js/bootbox.locales.min.js">'+'<'+'/script>';
+        var script8 = '<script type="text/javascript" src="'+projectName+'/js/sit/sit.js">'+'<'+'/script>';
+
+        document.write(script1,script2,script3,script4,script5,script6,script7,script8);
+
+    </script>
+
+
+
+
+</head>
+<body id="mainbody">
+
+
+
+<table class="table table-hover">
+
+    <thead>
+    <tr id="tr1">
+        <th>序号</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr id="t0"><td>1</td></tr>
+    <tr id="t1"><td>2</td></tr>
+    <tr id="t2"><td>3</td></tr>
+    <tr id="t3"><td>4</td></tr>
+    <tr id="t4"><td>5</td></tr>
+    <tr id="t5"><td>6</td></tr>
+    <tr id="t6"><td>7</td></tr>
+    <tr id="t7"><td>8</td></tr>
+    <tr id="t8"><td>9</td></tr>
+    <tr id="t9"><td>10</td></tr>
+    <tr id="t10"><td>11</td></tr>
+    <tr id="t11"><td>12</td></tr>
+    <tr id="t12"><td>13</td></tr>
+    <tr id="t13"><td>14</td></tr>
+    <tr id="t14"><td>15</td></tr>
+    </tbody>
+</table>
+
+
+</body>
+
+
+</html>

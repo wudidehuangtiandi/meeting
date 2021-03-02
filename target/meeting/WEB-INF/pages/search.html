@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+<head>
+    <!-- 指定字符集 -->
+    <meta charset="utf-8">
+    <!-- 使用Edge最新的浏览器的渲染方式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport视口：网页可以根据设置的宽度自动进行适配，在浏览器的内部虚拟一个容器，容器的宽度与设备的宽度相同。
+    width: 默认宽度与设备的宽度相同
+    initial-scale: 初始的缩放比，为1:1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>中林如皋港年会人员安排</title>
+
+
+
+<!--
+    <script src="../../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/bootstrap-table.js"></script>
+    <script src="../../../js/bootstrap-table-zh-CN.min.js"></script>
+    <script src="../../../js/jq-message.js"></script>&lt;!&ndash;封装的提示框&ndash;&gt;
+    <script src="../../../js/bootbox.min.js"></script>&lt;!&ndash;老外的提示框&ndash;&gt;
+    <script src="../../../js/bootbox.locales.min.js"></script>&lt;!&ndash;老外的提示框语言选择&ndash;&gt;
+
+    <script src="../../../js/index/index.js"></script>-->
+
+
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+
+
+        var link1 = document.createElement('link');
+        link1.setAttribute('type', 'text/css');
+        link1.setAttribute('rel', 'stylesheet');
+        link1.setAttribute('href', projectName+'/css/bootstrap.css');
+        var link2 = document.createElement('link');
+        link2.setAttribute('type', 'text/css');
+        link2.setAttribute('rel', 'stylesheet');
+        link2.setAttribute('href', projectName+'/css/bootstrap-table.min.css');
+
+        document.head.appendChild(link1);
+        document.head.appendChild(link2);
+
+    </script>
+
+
+    <script>
+        var pathName = window.document.location.pathname;
+        var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+
+        var script1 = '<script type="text/javascript" src="'+projectName+'/js/jquery-3.3.1.min.js">'+'<'+'/script>';
+        var script2 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap.min.js">'+'<'+'/script>';
+        var script3 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap-table.js">'+'<'+'/script>';
+        var script4 = '<script type="text/javascript" src="'+projectName+'/js/bootstrap-table-zh-CN.min.js">'+'<'+'/script>';
+        var script5 = '<script type="text/javascript" src="'+projectName+'/js/jq-message.js">'+'<'+'/script>';
+        var script6 = '<script type="text/javascript" src="'+projectName+'/js/bootbox.min.js">'+'<'+'/script>';
+        var script7 = '<script type="text/javascript" src="'+projectName+'/js/bootbox.locales.min.js">'+'<'+'/script>';
+        var script8 = '<script type="text/javascript" src="'+projectName+'/js/search/index.js">'+'<'+'/script>';
+
+        document.write(script1,script2,script3,script4,script5,script6,script7,script8);
+
+        /*function getRootPath() {
+            //获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
+            var curWwwPath = window.document.location.href;
+            //获取主机地址之后的目录，如： uimcardprj/share/meun.jsp
+            var pathName = window.document.location.pathname;
+            var pos = curWwwPath.indexOf(pathName);
+            //获取主机地址，如： http://localhost:8083
+            var localhostPaht = curWwwPath.substring(0, pos);
+            //获取带"/"的项目名，如：/uimcardprj
+            var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+            return (projectName);
+        }*/
+    </script>
+</head>
+<body>
+<div class="container">
+    <h2 style="text-align: center">坐席查询</h2>
+    <!-- <tr>
+         <td colspan="8" align="center"><a class="btn btn-default" href="/ssm01/create.html">添加</a></td>
+     </tr>-->
+    <br>
+    <br>
+
+
+    <div>
+        <div id="toolbar" class="form-inline"><!--可以不浮动-->
+            <!--人员类型:--><select class="form-control" style="display:none"  id="select1"><option value =""></option></select>
+            人员姓名:<input class="form-control" id="input2" type="text">
+            单位名:<input class="form-control" id="input1" type="text">
+
+            用餐桌号:<input class="form-control" id="input3" type="text">
+            <tr>
+                <td colspan="8" align="center"><a class="btn btn-default" href="javascript:void(0)" style=" margin-top: 5px;
+            margin-bottom: 5px;"
+                                                  onclick="t_search()">查询</a></td>
+            </tr>
+        </div>
+        <table id="grid" class="table-striped class"/>
+    </div>
+
+
+</div>
+
+<!--导入-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    请选择导入文件
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form id="import_form" method="post" enctype="multipart/form-data" accept=".xls,.xlsx">
+
+                    <input type="file" name="upload" id="upload"/>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-info" onclick=subm();>
+                    提交
+                </button>
+
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<!--新增-->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel2">新增</h4>
+            </div>
+
+            <div class="modal-body col-md-12"  >
+                <form id="add_form" method="post">
+
+                            <div class="form-group col-md-6">
+                                <label for="persontype">人员类型：</label>
+
+                                <input type="text" class="form-control" id="persontype" name="persontype"
+                                       placeholder="请输入人员类型"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="customertype">客户类型：</label>
+                                <input type="text" class="form-control" id="customertype" name="customertype"
+                                       placeholder="请输入客户类型"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="customercompanyname">客户单位名称：</label>
+                                <input type="text" class="form-control" id="customercompanyname" name="customercompanyname"
+                                       placeholder="请输入客户单位名称"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="customername">人员姓名*：</label>
+                                <input type="text" class="form-control" id="customername" name="customername"
+                                       placeholder="请输入人员姓名（必填）"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="position">职务：</label>
+                                <input type="text" class="form-control" id="position" name="position" placeholder="请输入职务"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="stay">是否住宿：</label>
+                                <input type="text" class="form-control" id="stay" name="stay" placeholder="是否住宿"/>
+                            </div>
+                            <div class="form-group col-md-6" >
+                                <label for="roomnum">房间号：</label>
+                                <input type="text" class="form-control" id="roomnum" name="roomnum" placeholder="请输入房间号"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="roomtype">房间类型：</label>
+                                <input type="text" class="form-control" id="roomtype" name="roomtype" placeholder="请输入房间类型"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="tablenum">用餐桌号：</label>
+                                <input type="text" class="form-control" id="tablenum" name="tablenum" placeholder="请输入用餐桌号"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="memo">备注:</label>
+                                <input type="text" class="form-control" id="memo" name="memo" placeholder="备注"/>
+                            </div>
+                </form>
+            </div>
+
+
+          <!--  <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br>-->
+
+            <div class="modal-footer" >
+                <button type="button" class="btn btn-default" onclick="add()">提交</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<!--修改-->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel3">修改</h4>
+            </div>
+            <div class="modal-body col-md-12">
+
+                <form id="upd_form" method="post">
+                    <div>
+                        <input type="text" class="form-control" id="id2" name="id" style="display:none"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="persontype2">人员类型：</label>
+                        <input type="text" class="form-control" id="persontype2" name="persontype"
+                               placeholder="请输入人员类型"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="customertype2">客户类型：</label>
+                        <input type="text" class="form-control" id="customertype2" name="customertype"
+                               placeholder="请输入客户类型"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="customercompanyname2">客户单位名称：</label>
+                        <input type="text" class="form-control" id="customercompanyname2" name="customercompanyname"
+                               placeholder="请输入客户单位名称"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="customername2">人员姓名*：</label>
+                        <input type="text" class="form-control" id="customername2" name="customername"
+                               placeholder="请输入人员姓名（必填）"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="position2">职务：</label>
+                        <input type="text" class="form-control" id="position2" name="position" placeholder="请输入职务"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="stay2">是否住宿：</label>
+                        <input type="text" class="form-control" id="stay2" name="stay" placeholder="是否住宿"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="roomnum2">房间号：</label>
+                        <input type="text" class="form-control" id="roomnum2" name="roomnum" placeholder="请输入房间号"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="roomtype2">房间类型：</label>
+                        <input type="text" class="form-control" id="roomtype2" name="roomtype" placeholder="请输入房间类型"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="tablenum2">用餐桌号：</label>
+                        <input type="text" class="form-control" id="tablenum2" name="tablenum" placeholder="请输入用餐桌号"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="memo2">备注:</label>
+                        <input type="text" class="form-control" id="memo2" name="memo" placeholder="备注"/>
+                    </div>
+                </form>
+
+            </div>
+
+           <!-- <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br>-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" onclick="upd()">提交</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+</body>
+
+
+</html>
